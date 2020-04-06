@@ -1,0 +1,210 @@
+﻿/*The fonts used for this CV*/
+@font-face {
+    font-family: 'MainPolice';
+    src: url('Polices/aaargh-webfont.woff2') format('woff2'), 
+         url('Polices/aaargh-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SecondaryPolice';
+    src: url('agane_45_light-webfont.woff2') format('woff2'),
+         url('agane_45_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*VARIABLES*/
+:root{
+    --main-color:#050e55;
+    --secondary-color:#383838;
+    --third-color:#985aff;
+    --top-space:11em;
+    --main-police:MainPolice;
+    --secondary-police:SecondaryPolice;
+}
+
+/*BODY GENERAL*/
+body {
+    font-size:14px;
+    color:var(--secondary-color);
+    font-family:var(--secondary-police);
+    }
+
+p {
+    margin-bottom:5px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family:var(--main-police);
+    font-weight: bold;
+    color: var(--main-color);
+    margin-top: 20px !important;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    font-style:italic;
+    color: var(--secondary-color);
+}
+
+h3 {
+    padding-top:10px;
+    font-size: 15px;
+    font-weight:bold;
+    color:var(--main-color);
+    text-transform:uppercase;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-transform:uppercase;
+}
+
+#LimitHomeTop {
+    margin:5px;
+    height:2.5px;
+    background-color:var(--main-color);
+    border: none;
+    margin-top:0px;
+}
+
+/*BACKGROUND CONTENT*/
+.Background {
+    background: url(Images/Background.jpeg) no-repeat;
+    height:100%;
+    background-size:cover;
+}
+
+.MarginTop {
+    height: 50px;
+}
+
+.MarginBottom {
+    height:150px;
+}
+
+.MainWrapp {
+    margin:auto;
+    box-shadow:-1px 2px 5px 1px rgba(0, 0, 0, 0.66);
+
+
+}
+
+/*ASIDE CONTENT*/
+aside {
+    background-color: var(--main-color);
+    opacity:0.7;
+    color:#cecdcd;
+    padding-top:30px;
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+
+    aside h1, aside h2, aside h3 {
+        padding: 30px !important;
+    }
+
+    aside h3 {
+        background:#ffffff;
+        padding-top:5px !important;
+        padding-bottom:5px !important;
+    }
+
+    aside p {
+        padding-bottom:20px;
+        padding-top:10px;
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    .TopPicture {
+        height:var(--top-space);
+    }
+
+    #PicturePerso {
+        width: 80%;
+        max-width: 120px;
+        display: block;
+        margin: auto;
+        border: solid 3px #ffffff;
+        border-radius: 150px 150px;
+        box-shadow: #cecdcd 10px 10px initial;
+    }
+
+    .hobbies {
+        display:flex;
+        justify-content:space-around;
+        flex-direction:row;
+        flex-wrap:wrap;
+        padding-top:30px;
+        padding-bottom:30px;
+
+    }
+
+    .hobbies img {
+        height:3em;
+    }
+
+    .fa-running {
+        color:#985aff;
+    }
+
+    .fa-book-reader {
+        color: #985aff;
+    }
+
+    .fa-route {
+        color: #985aff;
+    }
+
+/*CONTENT OF THE CV-ARTICLE*/
+article {
+    padding: 30px !important;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+    #UnderlineMainColor {
+        border-bottom:2px solid var(--secondary-color);
+        padding-bottom:20px;
+    }
+
+    .article__MainImg {
+        margin-right:10px;
+        height:1.5em;
+        float:left;
+    }
+
+.article__img {
+    height: 1em;
+    float: left;
+    margin: 3px;
+    margin-right: 10px;
+    margin-top: 1em;
+}
+
+    .FamilyName {
+        color:#000000;
+        padding-left:0.5em;
+    }
+
+    .OrganismLabel {
+        font-size:20px;
+        text-transform:uppercase;
+    }
+
+header {
+    height: var(--top-space);
+}
+
+#Copyright {
+    text-align:center;
+    font-size:18px;
+    color:#ffffff;
+    padding-top:30px;
+}
+
