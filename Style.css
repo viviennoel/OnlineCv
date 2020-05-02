@@ -31,7 +31,7 @@ body {
     font-family:var(--secondary-police);
     }
 
-.cellhighlight h2, .FamilyName{
+.cellhighlight h2, h1 {
     color:#ffffff !important;
 }
 
