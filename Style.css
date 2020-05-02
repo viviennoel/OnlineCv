@@ -31,6 +31,10 @@ body {
     font-family:var(--secondary-police);
     }
 
+.cellhighlight {
+    color:#ffffff !important;
+}
+
 p {
     margin-bottom:5px;
 }
