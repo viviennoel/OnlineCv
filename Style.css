@@ -32,7 +32,11 @@ body {
     }
 
 .cellhighlight h2, h1 {
-    color:#ffffff !important;
+    color:#ffffff;
+}
+
+.firstnamecolor {
+    color:var(--main-color);
 }
 
 p {
